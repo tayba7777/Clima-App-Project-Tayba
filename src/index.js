@@ -73,6 +73,7 @@ function refreshWeather(response) {
   }
 
   function displayForecast(response) {
+    
 
     let forecastHtml =""; 
 
