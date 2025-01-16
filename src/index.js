@@ -63,7 +63,7 @@ function refreshWeather(response) {
   let date = new Date(timestomp * 1000);
   let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
-  return days{date.getDay()};
+  return days[date.getDay()];
   }
 
   function getForecast(city) {
