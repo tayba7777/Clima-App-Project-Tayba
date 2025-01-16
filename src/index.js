@@ -59,7 +59,7 @@ function refreshWeather(response) {
     searchCity(searchInput.value);
   }
 
-  function formatDay(timesteomp) {
+  function formatDay(timestomp) {
   let date = new Date(timestomp * 1000);
   let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
